@@ -27,3 +27,4 @@ while True:
         print("result:", carpma(sayi1, sayi2))
     elif secim == '4':
         print("result:", bolme(sayi1, sayi2))
+print
