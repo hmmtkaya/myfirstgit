@@ -18,3 +18,5 @@ def calculator():
     secim = input("5-3")
     if secim == '1':
         sonuc = num1 + num2
+
+        print (5)
