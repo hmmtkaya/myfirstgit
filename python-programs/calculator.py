@@ -28,3 +28,6 @@ while True:
     elif secim == '4':
         print("result:", bolme(sayi1, sayi2))
 print
+
+
+def

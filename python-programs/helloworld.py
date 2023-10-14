@@ -8,3 +8,4 @@ for x in market_listesi:
     print('{0}. esyanin adi {1} ve marketi {2}'.format(liste_sayisi, esya, market))
           
     
+def 
