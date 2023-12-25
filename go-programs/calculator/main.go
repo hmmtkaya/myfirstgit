@@ -19,26 +19,15 @@ func main() {
 	input1 = 10
 	input2 = 20
 
-	operation = sum
-	mathoperations.A = "hi"
+	operation = div
 
 	switch operation {
 	case sum:
-		fmt.Println(mathoperations.SumOperation(input1, input2))
+		fmt.Println(mathoperations.Sum(input1, input2))
 	case div:
-		fmt.Println(float64(input1)/float64(input2))
+		fmt.Println(mathoperations.Div(input1, input2))
 	default:
 		fmt.Printf("unkown operation: %s\n", operation)
 	}
 
-	fmt.Println(mathoperations.A)
-	mathoperations.A = "hi"
-
-	fmt.Println(mathoperations.A)
-
-
 }
-
-
-
-

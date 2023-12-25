@@ -1,10 +1,9 @@
 package mathoperations
 
-import "fmt"
+func Sum(i1, i2 float64) float64 {
+	return i1 + i2
+}
 
-var A = "test"
-
-func SumOperation(i1, i2 float64) float64 {
-	fmt.Println(A)
-	return i1+i2
+func Div(i1, i2 float64) float64 {
+	return i1 / i2
 }
